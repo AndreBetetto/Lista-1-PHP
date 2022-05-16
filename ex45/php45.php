@@ -4,15 +4,16 @@
     $nome1 = "$_POST[t1nome]";
     $nome2 = "$_POST[t2nome]";
 
-    $time1 = number_format($time1, 0);
-    $time2 = number_format($time2, 0);
+    $time1 = number_format($time1, 1);
+    $time2 = number_format($time2, 1);
 
-    if($nome1 = " ")
+    if($nome1 == "" || $nome1 == " ")
         $nome1 = "Time 1";
-    if($nome2 = " ")
-        $nome2 = "Time 2";    
+    if($nome2 == "" || $nome2 == " ")
+        $nome2 = "Time 2";  
+  
     if($time1 > $time2)
-        echo"".$nome2." venceu!!";
+        echo"".$nome1." venceu!!";
     else
     if($time2 > $time1)
         echo"".$nome2." venceu!!!";
