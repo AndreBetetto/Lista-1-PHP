@@ -1,4 +1,5 @@
 <?php
+include("estilo.css");
     $time1 = "$_POST[t1]";
     $time2 = "$_POST[t2]";
     $nome1 = "$_POST[t1nome]";

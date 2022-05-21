@@ -1,5 +1,6 @@
 
 <?php
+include("estilo.css");
     $altura = "$_POST[alt]";
     $peso = "$_POST[peso]";
 

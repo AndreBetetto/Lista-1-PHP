@@ -1,4 +1,5 @@
 <?php
+    include("estilo.css");
     $valor = "$_POST[temp]";
     $temp = ($valor - 32) / 1.8;
     $temp = number_format($temp, 2);
