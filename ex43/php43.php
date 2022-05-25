@@ -1,5 +1,6 @@
 
 <?php
+//<!-- André Luiz de Oliveira Betetto, n°03 e Louise Vicentino de Moraes, n°25 - 72B -->
 include("estilo.css");
     $altura = "$_POST[alt]";
     $peso = "$_POST[peso]";
