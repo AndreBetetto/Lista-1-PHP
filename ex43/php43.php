@@ -7,8 +7,6 @@
 </head>
 <body>
     <h3>
-    <?php
-//include("estilo.css");
 
 <?php
 //<!-- André Luiz de Oliveira Betetto, n°03 e Louise Vicentino de Moraes, n°25 - 72B -->
