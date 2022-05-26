@@ -1,4 +1,5 @@
 <?php
+//<!-- André Luiz de Oliveira Betetto, n°03 e Louise Vicentino de Moraes, n°25 - 72B -->
     include("estilo.css");
     ini_set('default_charset','UTF-8');
     $nome = "$_POST[nome]";

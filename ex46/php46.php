@@ -1,4 +1,5 @@
 <?php
+//<!-- André Luiz de Oliveira Betetto, n°03 e Louise Vicentino de Moraes, n°25 - 72B -->
     include("estilo.css");
     $valor = "$_POST[temp]";
     $temp = ($valor - 32) / 1.8;
