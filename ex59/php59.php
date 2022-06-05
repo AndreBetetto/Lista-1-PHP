@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- André Luiz de Oliveira Betetto, n°03 e Louise Vicentino de Moraes, n°25 - 72B -->
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>php59</title>
@@ -19,7 +19,7 @@
             $cont = 1;
         }
     }
-    if($cont >= 1)
+    if($cont == 1)
     {
         echo"O nome está na lista.";
     }
